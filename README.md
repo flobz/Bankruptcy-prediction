@@ -56,3 +56,8 @@ curl -X POST -H "Content-Type: application/json" http://127.0.0.1:5000/is_bankru
   "Information": "The company will probably go bankrupt in 3 year."
 }
 ```
+
+## Conclusion
+
+With this dataset we have a very good accuracy. I had only 21 false negative and no false positive on 1700 row.
+The XGbost algorithm worked very well.

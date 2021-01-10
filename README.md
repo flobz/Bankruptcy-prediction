@@ -21,8 +21,11 @@ This work was done for an exam, goals were:
 
 ## Usage
 You can test the model with the API that I developed. To use it you will need to install the requirement:
+
 ```pip install -r requirements.txt```
-Then start the api
+
+Then start the api:
+
 ```python3 api.py```
 
 Then you need to create a request with data in json format like this:

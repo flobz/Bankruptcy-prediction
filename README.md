@@ -3,7 +3,7 @@
 I use a dataset that can be found [here](https://archive.ics.uci.edu/ml/datasets/Polish+companies+bankruptcy+data#). 
 
 The goal is to predict if a company will go bankrupt in the next 5 years.
-You can see my work [here](https://github.com/flobz/Bankruptcy-prediction/bankruptcy_prediction.ipynb)
+You can see my work [here](https://github.com/flobz/Bankruptcy-prediction/blob/master/bankruptcy_prediction.ipynb)
 
 # Context
 
@@ -27,12 +27,12 @@ Then start the api
 
 Then you need to create a request with data in json format like this:
 ```json
-{ "nbyear": a number between 1 and 5,
-  "data": [64 financial data of the company]
+{ "nbyear": "a number between 1 and 5",
+  "data": ["64 financial data of the company"]
 }
 ```
 
-To create the "data" field see all attributes you need to specify [here](https://github.com/flobz/Bankruptcy-prediction/data/attribute.txt).
+To create the "data" field see all attributes you need to specify [here](https://github.com/flobz/Bankruptcy-prediction/blob/master/data/attribute.txt).
 You need to use the same order.
 
 
